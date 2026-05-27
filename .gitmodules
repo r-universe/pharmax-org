@@ -1,5 +1,16 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
-	shallow = true
+	url = https://github.com/pharmax-org/pharmax-org.r-universe.dev
 	branch = HEAD
+[submodule "pharmax"]
+	path = pharmax
+	url = https://github.com/pharmax-org/pharmax
+	subdir = packages/pharmax
+[submodule "pharmax.ml"]
+	path = pharmax.ml
+	url = https://github.com/pharmax-org/pharmax
+	subdir = packages/pharmax.ml
+[submodule "pharmax.viz"]
+	path = pharmax.viz
+	url = https://github.com/pharmax-org/pharmax
+	subdir = packages/pharmax.viz
